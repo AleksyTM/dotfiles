@@ -1,0 +1,3 @@
+#!/bin/sh
+
+paplay ~/.local/share/sounds/a_hat_in_time_hat_kid_voicelines-audiotrimmer.ogg

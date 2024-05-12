@@ -1,0 +1,21 @@
+[global]
+format = "<b>%s</b>\n%b"
+
+icon_path = "~/.local/share/icons/"
+icon_theme = WhiteSur
+max_icon_size = 64
+enable_recursive_icon_lookup = true
+
+origin = top-right
+offset = 22x22
+frame_width = 2
+frame_color = "#ffa8e3"
+separator_color= frame
+font = "Fira Code 10"
+corner_radius = 7
+background = "#30142e"
+foreground = "#9817d4"
+
+[playsound]
+summary = "*"
+script = "~/.local/bin/alert"
