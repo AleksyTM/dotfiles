@@ -39,10 +39,10 @@
       "tooltip-format-enumerate-connected": "{device_alias}   {device_address}"
     },
     "network": {
-      "interface": "wlo1",
+      "interface": "enp9s0",
       "format": "{ifname}",
       "format-wifi": "<span color='#ffa8e3'> </span>{essid}",
-      "format-ethernet": "{ipaddr}/{cidr} ",
+      "format-ethernet": "<span color='#ffa8e3'>🖧 </span> {ipaddr}",
       "format-disconnected": "<span color='#ffa8e3'>󰖪 </span>No Network",
       "tooltip": false,
     },

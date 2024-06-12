@@ -2,12 +2,13 @@
 fpath=($HOME/completion_zsh $fpath)
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="aleksy"
 
 plugins=(
   vi-mode 
   web-search
   zsh-autosuggestions
+  git
 )
 
 source $ZSH/oh-my-zsh.sh
