@@ -19,10 +19,10 @@
       }
     },
     "clock": {
-      "format": "<span color='#ffa8e3'> </span>{:%H:%M}",
+      "format": "<span color='#d99245'> </span>{:%H:%M}",
     },
     "pulseaudio": {
-      "format": "<span color='#ffa8e3'>{icon}</span> {volume}%",
+      "format": "<span color='#d99245'>{icon}</span> {volume}%",
       "format-muted": "",
       "tooltip": false,
       "format-icons": {
@@ -32,24 +32,24 @@
       "scroll-step": 1,
     },
     "bluetooth": {
-      "format": "<span color='#ffa8e3'></span> {status}",
+      "format": "<span color='#d99245'></span> {status}",
       "format-disabled": "", // an empty format will hide the module
-      "format-connected": "<span color='#ffa8e3'></span> {num_connections}",
+      "format-connected": "<span color='#d99245'></span> {num_connections}",
       "tooltip-format": "{device_enumerate}",
       "tooltip-format-enumerate-connected": "{device_alias}   {device_address}"
     },
     "network": {
       "interface": "enp9s0",
       "format": "{ifname}",
-      "format-wifi": "<span color='#ffa8e3'> </span>{essid}",
-      "format-ethernet": "<span color='#ffa8e3'>🖧 </span> {ipaddr}",
-      "format-disconnected": "<span color='#ffa8e3'>󰖪 </span>No Network",
+      "format-wifi": "<span color='#d99245'> </span>{essid}",
+      "format-ethernet": "<span color='#d99245'>🖧 </span> {ipaddr}",
+      "format-disconnected": "<span color='#d99245'>󰖪 </span>No Network",
       "tooltip": false,
     },
     "battery": {
-      "format": "<span color='#ffa8e3'>{icon}</span> {capacity}%",
+      "format": "<span color='#d99245'>{icon}</span> {capacity}%",
       "format-icons": ["", "", "", "", "", "", "", "", "", ""],
-      "format-charging": "<span color='#ffa8e3'></span> {capacity}%",
+      "format-charging": "<span color='#d99245'></span> {capacity}%",
       "tooltip": false,
     },
 }

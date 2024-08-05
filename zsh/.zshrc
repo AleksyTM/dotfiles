@@ -23,6 +23,7 @@ export QT_QPA_PLATFORM="wayland;xcb"
 export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/docker.sock
 
 # alias
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh" 
 alias n='nvim'
 alias n-lazy='NVIM_APPNAME=LazyVim nvim'
 alias n-nvchad='NVIM_APPNAME=NvChad nvim'
